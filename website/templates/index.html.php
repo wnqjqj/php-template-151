@@ -1,1 +1,1 @@
-huhu
+test <?= (array_key_exsits("email", $SESSION) ? $_SESSION ["email"] : "")?>
