@@ -4,6 +4,8 @@ SET time_zone = '+00:00';
 SET foreign_key_checks = 0;
 SET sql_mode = 'NO_AUTO_VALUE_ON_ZERO';
 
+use app;
+
 DROP TABLE IF EXISTS `blog_members structure`;
 CREATE TABLE `blog_members structure` (
   `memberID` int(11) NOT NULL,

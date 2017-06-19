@@ -1,8 +1,8 @@
 <?php
 
-namespace ihrname\Controller;
+namespace wnqjqj\Controller;
 
-use ihrname\SimpleTemplateEngine;
+use wnqjqj\SimpleTemplateEngine;
 
 class IndexController 
 {
@@ -25,5 +25,9 @@ class IndexController
 
   public function greet($name) {
   	echo $this->template->render("hello.html.php", ["name" => $name]);
+  }
+  
+  public function introduce () {
+  	echo $this->template->render("introduce.html.php");
   }
 }

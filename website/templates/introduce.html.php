@@ -1,7 +1,7 @@
 <html>
  
 <head>
-<title>Index Page</title>
+<title>Introduce Page</title>
 
 <style type = "text/css">
 body {
@@ -26,12 +26,9 @@ label {
 
 <div align = "center">
 <div style = "width:900px; border: solid 1px #333333; " align = "left">
-<div style = "background-color:#333333; color:#FFFFFF; padding:3px;"><b>Blog</b></div>
+<div style = "background-color:#333333; color:#FFFFFF; padding:3px;"><b>Introduce</b></div>
 
-<div style = "margin:30px">
-<a href="/introduce">Introduce about me</a>
-
-<p>This is Junseok's website and you can search about me!</p>
+<p>Hello my name is Junseok Nam and i'm 20. i working at Roche Diagnostics korea and i like Racellet.</p>
  
 <div style = "font-size:11px; color:#cc0000; margin-top:10px"></div>
 	

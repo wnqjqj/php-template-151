@@ -1,12 +1,12 @@
 <?php
 
-use ihrname\Service\LoginMysqlService;
+use wnqjqj\Service\LoginMysqlService;
 
 error_reporting(E_ALL);
 session_start();
 
 require_once("../vendor/autoload.php");
-$Factory = new ihrname\Factory();
+$Factory = new wnqjqj\Factory();
 
 
 switch($_SERVER["REQUEST_URI"]) {
@@ -20,6 +20,9 @@ switch($_SERVER["REQUEST_URI"]) {
 		} else{
 			$ctr->login($_POST);
 		}
+		break;
+	case "/introduce":
+		$Factory->getIndexController()->introduce();
 		break;
     case "/download":
 			$ctr = new wnqjqj\Controller\DownloadController;
